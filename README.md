@@ -7,10 +7,10 @@ An archetype project in Go making use of Dependency Injection in order to provid
 
 ## Why?
 I really like Java + [Spring Boot](https://projects.spring.io/spring-boot/). It's battle tested,
-the projects are organised and allows for [Dependency Injection](https://martinfowler.com/articles/injection.html) to
-take place almost seamlessly. That being said I really like Go; just the language alone is richly-featured without
+projects are organised and [Dependency Injection](https://martinfowler.com/articles/injection.html) takes place almost
+seamlessly. That being said, I really like Go; just the language alone is richly-featured without
 the need of a framework, it produces much smaller binaries and it's new(ish) and shiny. So, as Go is pretty
-non-prescriptive about what your project looks like I've mirrored the structure of a typical Spring Boot project. Also,
+non-prescriptive about what your project looks like, I've mirrored the structure of a typical Spring Boot project. Also,
 as Go has the concept of dynamically implementing interfaces, Dependency Injection becomes a pretty easy feat, however,
 to organise it I've borrowed Spring's concept of an 'Application Context'.
 
