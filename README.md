@@ -16,6 +16,16 @@ to organise it I've borrowed Spring's concept of an 'Application Context'.
 
 Is it the "Go way"? Maybe not. Valuable? Remains to be seen.
 
+## Docker
+The application can be packaged as a Docker container by using the command:
+
+`make package `
+
+The container is built on [Alpine Linux](https://alpinelinux.org/) and works out to be about 14MB. The container can be
+run using the following command:
+
+`docker run -it -p8080:8080 adbourne/go-archetype-rest`
+
 
 ## Development
 This project makes use of [dep](https://github.com/golang/dep), which will eventually
