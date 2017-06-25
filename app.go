@@ -18,7 +18,7 @@ func main() {
 	appContext := NewAppContext(appConfig)
 
 	// Build and run the gin router
-	router := buildGinRouter(appContext)
+	router := BuildGinRouter(appContext)
 	router.Run(fmt.Sprintf(":%d", appConfig.Port))
 }
 
@@ -33,7 +33,7 @@ func printBanner() {
 		`)
 }
 
-func buildGinRouter(appContext *config.AppContext) *gin.Engine {
+func BuildGinRouter(appContext *config.AppContext) *gin.Engine {
 	// Creates a gin router with default middleware:
 	// logger and recovery (crash-free) middleware
 	router := gin.Default()
