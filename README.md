@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adbourne/go-archetype-rest.svg?branch=master)](https://travis-ci.org/adbourne/go-archetype-rest)
+
 # go-archetype-rest
 An archetype project in Go making use of Dependency Injection in order to provide a simple REST server.
 [gin-gonic](https://gin-gonic.github.io/gin/) is used to provide the REST server functionality.
